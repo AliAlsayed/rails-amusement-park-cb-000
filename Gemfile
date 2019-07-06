@@ -8,9 +8,10 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier'
 gem 'bootsnap'
 gem 'factory_girl_rails'
-
+gem 'bcrypt'
 gem 'sqlite3', '~>1.3.6'
-
+gem 'bootstrap-sass'
+gem 'capybara'
 group :development, :test do
   gem 'rack_session_access'
   gem "capybara"
